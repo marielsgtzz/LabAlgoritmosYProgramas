@@ -31,9 +31,13 @@
 **#** : protected
 
 **3.** En Eclipse programar primero los atributos
+
 **4.** Escribir las funciones y métodos que cumplen el funcionamiento que el problema pide
+
 **5.** Hacer getters y setters
+
 **6.** Escribir funciones genéricas (toString, compareTo, equals)
+
 **7.** Hacer pruebas
 
 En esta carpeta se responden dos problemas del laboratorio 2.
