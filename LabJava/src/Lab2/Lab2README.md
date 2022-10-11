@@ -38,7 +38,12 @@
 
 **6.** Escribir funciones genéricas (toString, compareTo, equals)
 
-**7.** Hacer pruebas
+**7.** Hacer pruebas. Super importante que en su clase de pruebas (su ejecutable) tengan el método main.
+```
+public static void main(String[] args) {
+		//Código de pruebas
+	} 
+```
 
 En esta carpeta se responden dos problemas del laboratorio 2.
 Problema 1. Se necesita un programa de Java para llevar el control de un juego de basketball. El contenido que la liga nos está pidiendo es que el programa tenga los nombres de ambos equipos, los puntajes de cada equipo y el estatus de la partida (terminada o en curso). Aparte se necesita que se pueda registrar cuando un equipo anota 1, 2 y 3 puntos, que se pueda cambiar el status del juego, que pueda saber los puntos de un equipo en específico y ver quién está ganando actualmente.
