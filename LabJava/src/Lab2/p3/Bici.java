@@ -1,6 +1,4 @@
-package lab;
-
-import java.util.Objects;
+package Lab2.p3;
 
 public class Bici {
 /*
