@@ -1,7 +1,7 @@
 package Lab2.p3;
 
 public class PruebaBicicleta {
-
+ 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Bicicleta a = new Bicicleta('u', 0, "aluminio");

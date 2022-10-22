@@ -17,6 +17,7 @@ public class PruebaJuego {
 		System.out.println("\nANOTA EQUIPO");
 		partido1.anotacion(3, "celtics");
 		System.out.println("Los warriors llevan "+partido1.puntaje("warriors")+" puntos");
+		System.out.println("Los warriors llevan "+partido1.puntaje(partido1.getNombreEq1())+" puntos");
 		
 		//Cambio status juego
 		System.out.println("\nCAMBIO STATUS JUEGO");
