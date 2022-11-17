@@ -8,3 +8,7 @@ Contenido actual:
 
 - Lab2: UMLs y POO
   - Es Programación Orientada a Objetos Parte 1, objetos sencillos
+- Lab3: Arreglos Unidimensionales
+  - Análisis de arreglos y arreglos implementados en clases
+- Lab4: Matrices, archivos de texto y múltiples arreglos unidimensionales
+  - Recorrer varios arreglos unidimensionales al mismo tiempo, manejo de matrices usando información de archivos de texto.
