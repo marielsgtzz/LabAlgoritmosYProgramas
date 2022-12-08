@@ -13,7 +13,7 @@ public class contadorCumples {
 		System.out.println("------");
 		System.out.println(c.cumpleMes(3));
 		System.out.println("------");
-		System.out.println(c.mOf(5));
+		System.out.println(c.mOf(5)); 
 		System.out.println(c.mOf(11));
 		System.out.println(c.mOf(1));
 		System.out.println("------");

@@ -11,11 +11,12 @@ public class RegistroCumples {
 	
 	
 	public RegistroCumples() {
+		
 		datosCumple = new int[2][12]; //renglones=sexo, columnas=meses;
-		File file = new File("cumple.txt");
+		File file = new File("cumple.txt"); //En el txt viene el mes REAL
 		try {
 			Scanner archivo = new Scanner(file);
-			int personas = archivo.nextInt(); //Cuantos datos vamos a capturar
+			int personas = archivo.nextInt();//Cuantos datos vamos a capturar
 			archivo.nextLine();
 						
 			int mes;
@@ -43,6 +44,7 @@ public class RegistroCumples {
 	
 
 	//Cuántas personas cumplen en un mes en específico
+	//Asumimos que nos dan el mes real menos 1
 	public String cumpleMes(int mes) {
 		String res;
 		res = "Cumplen "+(datosCumple[0][mes] + datosCumple[1][mes])+" personas en el mes "+(mes+1);
@@ -65,6 +67,8 @@ public class RegistroCumples {
 	//En qué meses nadie cumplió años (usando ArrayList)
 	public String nadie() {
 		ArrayList<Integer> list = new ArrayList();
+		//datosCumple.length COLUMNAS
+		//datosCumple[0].length RENGLONES 
 		for(int i=0; i<datosCumple[0].length;i++) {
 			if(datosCumple[0][i] == 0 && datosCumple[1][i] == 0) {
 				list.add(i+1);
